@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="travelstyle.css">
+  <style type="text/css">
+    body {
+      background-image: url("booknow.jpg");
+      background-repeat: no-repeat;
+      background-size: 1500px 2000px;
+      background-position: center center;
+      background-color: rgba(255, 255, 255);
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .form-container {
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      width: 50%;
+      text-align: left;
+    }
+    .form-container input[type="text"],
+    .form-container input[type="email"],
+    .form-container input[type="number"],
+    .form-container input[type="date"] {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<div class="div1"> Travel </div>
+<div class="div2">
+    <a href="home.html">Home</a>
+</div>
+<div class="div3">
+    <a href="travelabout.html">About</a>
+</div>
+<div class="div4">
+    <a href="popular.html">Popular</a>
+</div>
+<div class="div5">
+    <a href="exploreksama.html">Explore</a>
+</div>
+
+<div class="container">
+  <div class="form-container">
+    <form action="phpFormbooknow.php" method="post">
+      Phone Number:<input type="text" name="userPhone" value=""><br><br>
+      Name: <input type="text" name="userName" value=""><br><br>
+      Email: <input type="email" name="userEmail" value=""><br><br>
+      Where To?<input type="text" name="destination" value=""><br><br>
+      Tour? <input type="text" name="tour" value=""><br><br>
+      How Many People? <input type="number" name="numPeople" value=""><br><br>
+      Arrival Date: <input type="date" name="arrivalDate" value=""><br><br>
+      Leaving Date: <input type="date" name="leavingDate" value=""><br><br>
+
+      <input type="submit">
+    </form>
+  </div>
+</div>
+
+</body>
+</html>

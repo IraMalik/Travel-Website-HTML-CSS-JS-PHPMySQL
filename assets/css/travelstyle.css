@@ -1,0 +1,188 @@
+/*explore and travelabout css*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Poppins:wght@400;500&display=swap");
+
+.div1{
+    width: 25px;
+    height: 20px;
+    color: white;
+    background-color: transparent;
+    transform: translate(40px, 30px);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+}
+
+.div2{
+    width: 25px;
+    height: 20px;
+    color: white;
+    background-color: transparent;
+    transform: translate(790px, 10px);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.div3{
+    width: 25px;
+    height: 20px;
+    color: white;
+    background-color: transparent;
+    transform: translate(940px, -10px);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.div4{
+    width: 25px;
+    height: 20px;
+    color: white;
+    background-color: transparent;
+    transform: translate(1090px, -30px);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.div5{
+    width: 25px;
+    height: 20px;
+    color: white;
+    background-color: transparent;
+    transform: translate(1240px, -50px);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.div6{
+    width: 1000px;
+    height: 50px;
+    color: white;
+    background-color: transparent;
+    transform: translate(100px, 70px);
+    font-family: "Times New Roman", Times, serif;
+}
+
+.div7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1400px;
+    height: 400px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translate(10px, 270px);
+    font-family: "Times New Roman", Times, serif;
+    font-weight: revert;
+    font-size: 30px;
+    font-style: italic;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    color:white;
+font-family: "Times New Roman", Times, serif;
+    font-size:35px;
+    font-weight: bold;
+/*    transform: translate(30px,-500px);*/
+}
+
+p{
+    color:white;
+font-family: "Times New Roman", Times, serif;
+    font-size:23px;
+    font-weight:100;
+/*    transform: translate(30px,-500px);*/
+    width: fit-content;
+}
+
+.h1about {
+    color:white;
+    font-family: "Times New Roman", Times, serif;
+    font-size:40px;
+/*    font-weight: bold;*/
+    transform: translate(0px,20px);
+}
+
+.pabout {
+    color:white;
+    font-family: "Times New Roman", Times, serif;
+    font-size:19px;
+    font-weight:100;
+    transform: translate(0px,20px);
+}
+
+.div {
+    width: 600px;
+    height: 30px;
+    padding: 10px;
+    transform: translate(100px,150px);
+}
+
+.explore {
+    background-color: grey;
+    color: white;
+font-family: "Times New Roman", Times, serif;
+    width: 150px;
+    height: 25px;
+    padding: 10px;
+    transform: translate(110px,450px);
+}
+
+.pic {
+    width: 600px;
+  height: 500px;
+  margin: 0 auto;
+  transform: translate(350px,100px);
+  overflow: hidden;
+}
+
+.pic img {
+    width:100%;
+  transition: 0.5s all ease-in-out;
+}
+
+.pic:hover img{
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.explorepic {
+    background-image: url('amsterdam.jpeg');
+    width: 600px;
+  height: 360px;
+  margin: 0 auto;
+  transform: translate(100px,-2px);
+}
+
+.explorebook {
+  width: 600px;
+    height: 350px;
+    padding: 10px;
+    transform: translate(150px,50px);
+}
+
+.booknow{
+  background-color: transparent;
+  font-size: 25px;
+    color: white;
+font-family: "Times New Roman", Times, serif;
+    width: 350px;
+    height: 25px;
+    padding: 10px;
+    transform: translate(-390px,50px);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
